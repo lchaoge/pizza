@@ -16,7 +16,10 @@ import Delivery from './../components/about/Delivery'
 import Phone from './../components/about/contact/Phone'
 import Personname from './../components/about/contact/Personname'
 
+import Hello from './../components/Hello'
+
 export const routes = [
+	{path:'/hello',name:'helloLink',component:Hello}, // 练习
 	{path:'/',name:'homeLink',components:{
 		default:Home,
 		'historyLink':History,

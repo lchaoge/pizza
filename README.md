@@ -1,15 +1,21 @@
 # pizza
 
-> A Vue.js project
+前端：vue + axios + vue-router
+后端：express + mysql  
 
 ## Build Setup
 
-``` bash
+# 加载依赖
 # install dependencies
 npm install
 
+# 本地启动前端
 # serve with hot reload at localhost:8080
 npm run dev
+
+# 本地启动后端
+# serve with hot reload at localhost:8080
+npm run server
 
 # build for production with minification
 npm run build

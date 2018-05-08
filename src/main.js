@@ -7,13 +7,18 @@ import { routes } from './router/index'
 import axios from 'axios'
 import {store} from './store/index'
 
-axios.defaults.baseURL = 'https://wd6783237698uedlow.wilddogio.com/'
+//axios.defaults.baseURL = 'https://wd6783237698uedlow.wilddogio.com/'
 
 // 配置vue原型
 Vue.prototype.http = axios
 
 Vue.use(VueRouter);
 
+/*引入资源请求插件*/
+import VueResource from 'vue-resource'
+
+/*使用VueResource插件*/
+Vue.use(VueResource)
 
 const router = new VueRouter({
 	routes,
